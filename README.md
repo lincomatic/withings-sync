@@ -8,6 +8,8 @@ A tool for synchronisation of the Withings API to:
 
 
 ## Dev
+
+There's a dependency on libxml and libxslt. pip3 install lxml pukes, so need to install it w/ apt instead on debian
 ```
 apt update
 apt install python3-lxml

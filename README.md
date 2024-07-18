@@ -6,6 +6,15 @@ A tool for synchronisation of the Withings API to:
 - Trainer Road
 - raw JSON output
 
+
+## Dev
+```
+apt update
+apt install python3-lxml
+python3 setup.py build
+python3 setup.py install
+```
+
 ## Installation
 
 ```bash

@@ -9,7 +9,10 @@ A tool for synchronisation of the Withings API to:
 
 ## Dev
 
-There's a dependency on libxml and libxslt. pip3 install lxml pukes, so need to install it w/ apt instead on debian
+There's a dependency on libxml and libxslt. pip3 install lxml pukes, so need to install it w/ ```apt install python3-lxml``` instead on debian
+if pip3 is broken, fix it w/ this: https://askubuntu.com/questions/1433043/in-my-ubuntu-22-04-pip-install-gives-me-unicodedecodeerror-utf-8-codec-cant
+running setup.py install makes an error w/ pydantic_core.  after fixing pip3, run ```pip3 install pydantic```
+actually, just use python3.9+ and won't run into so many %#$ errors
 ```
 apt update
 apt install python3-lxml
